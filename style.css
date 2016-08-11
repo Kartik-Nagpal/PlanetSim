@@ -8,16 +8,18 @@ html, body
     background-color: black;
 }
 
-body {
+body 
+{
     font-family: helvetica, arial, verdana, sans-serif;
 }
 
-input {
+input 
+{
 	font-size: 7em;
 	background-color: transparent;
 	text-align: center;
 	border-color: orange;
-    border-width: 1;
+	border-width: 1;
     border-style: solid;
     border-radius: 50%;
 	width: 100%;
