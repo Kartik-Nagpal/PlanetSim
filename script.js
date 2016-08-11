@@ -8,7 +8,7 @@ function modify_qty(val)
     
     if (new_qty < 0) 
     {
-		new_qty = 0;
+    	new_qty = 0;
     }
     
     document.getElementById('qty').value = new_qty;
