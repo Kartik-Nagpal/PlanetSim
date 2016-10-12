@@ -21,8 +21,8 @@ input
 	text-align: center;
 	border-color: orange;
 	border-width: 1;
-    border-style: solid;
-    border-radius: 50%;
+    	border-style: solid;
+    	border-radius: 50%;
 	width: 100%;
 	color: #fff;
 	box-shadow: 0 0 128px red;
@@ -221,7 +221,7 @@ false {
     border-radius: 50%;
 	
 	
-	-webkit-animation: spin-right 6.15s linear infinite;
+    -webkit-animation: spin-right 6.15s linear infinite;
      -moz-animation: spin-right 6.15s linear infinite;
       -ms-animation: spin-right 6.15s linear infinite;
        -o-animation: spin-right 6.15s linear infinite;
