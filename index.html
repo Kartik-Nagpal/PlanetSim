@@ -1,98 +1,92 @@
 <html>
     <head>
-	<title> Planets </title>
-	<link rel="shortcut icon" href="http://upload.wikimedia.org/wikipedia/en/7/72/CosmicKing.jpg">
+      	<title> Planets </title>
+      	<link rel="shortcut icon" href="http://upload.wikimedia.org/wikipedia/en/7/72/CosmicKing.jpg">
         <link rel="stylesheet" href="style.css" />
-	<script type="text/javascript" src="script.js"></script>
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-		ga('create', 'UA-61359114-1', 'auto');
-		ga('send', 'pageview');
-	</script>
+      	<script type="text/javascript" src="script.js"></script>
     </head>
-    <body>		
-	<!--<audio controls>
-		<source id="mySong" src="The Big Bang Theory.mp3" type="audio/mpeg">
-		<script>
-			var Song = document.getElementById('mySong');
-			Song.play();
-			vid.loop = true; 
-		</script>
-	</audio>-->
-		
-	<div class="box">    
-        		<label for="qty"><abbr title="Quantity">Year</abbr></label>
-		<input id="qty" value="0" />
-	</div>
-	
-	<div class="TradeMark">
-		<label for="qty"><abbr title="Quantity">LightningLord Productions Presents</abbr></label>
-        		<input id="qty" value="The Planets"/>	
-	</div>
-	
-	<div class="Disclaimer">
-		<true for="qty">
-			<abbr title="Quantity">The Time is Proportional to Real Life!</abbr>
-		</true>
-        		<false id="qty" value="The Size and Distance isn't proportional!"/>	
-	</div>
-	
-      <!-- Planets -->
-	<!-- Sun -->
-        	<img id="sun" src="https://github.com/LightningLord4/PlanetSim/blob/master/Planet%20Pictures/Sun.png?raw=true">
-        
-		
-	 <!-- Mercury -->
-        	<div id="mercury-orbit">
-            		<img id="mercury" src="https://github.com/LightningLord4/PlanetSim/blob/master/Planet%20Pictures/Mercury.png?raw=true">
+
+    <body>
+        <!-- These Audio Controls have been commented out because of copyright problems -->
+
+        <!--<audio controls>
+      		<source id="mySong" src="The Big Bang Theory.mp3" type="audio/mpeg">
+      		<script>
+      			var Song = document.getElementById('mySong');
+      			Song.play();
+      			vid.loop = true;
+      		</script>
+      	</audio>-->
+
+      	<div class="box">
+          <label for="qty">Year</label>
+      		<input id="qty" value="0"/ readonly>
+      	</div>
+
+      	<div class="TradeMark">
+      		<label for="qty">LightningLord Productions Presents</label>
+          <input id="qty" value="The Planets"/ readonly>
+      	</div>
+
+      	<div class="Disclaimer">
+      		<true for="qty">The Time is Proportional to Real Life!</true>
+          <false id="qty" value="The Size and Distance isn't proportional!"/>
+      	</div>
+
+        <!-- Planets -->
+        <div id="Planets">
+      	    <!-- Sun -->
+            <img id="sun" src="https://github.com/LightningLord4/PlanetSim/blob/master/Planet%20Pictures/Sun.png?raw=true">
+
+
+          	<!-- Mercury -->
+          	<div id="mercury-orbit">
+              		<img id="mercury" src="https://github.com/LightningLord4/PlanetSim/blob/master/Planet%20Pictures/Mercury.png?raw=true">
+          	</div>
+
+          	<!-- Venus -->
+          	<div id="venus-orbit">
+          		<img id="venus" src="https://github.com/LightningLord4/PlanetSim/blob/master/Planet%20Pictures/Venus.png?raw=true">
+          	</div>
+
+      	    <!-- Earth -->
+            <div id="earth-orbit">
+              <img id="earth" src="https://github.com/LightningLord4/PlanetSim/blob/master/Planet%20Pictures/Earth.png?raw=true">
+            </div>
+
+
+          	<!-- Moon -->
+          	<div id="earth-orbit">
+          	<!-- 2 orbits because it isn't centered on a stationary point -->
+          		<div id="moon-orbit">
+          			<img id="moon" src="https://github.com/LightningLord4/PlanetSim/blob/master/Planet%20Pictures/Moon.png?raw=true">
+          		</div>
+          	</div>
+
+      	    <!-- Mars -->
+            <div id="mars-orbit">
+      		      <img id="mars" src="https://github.com/LightningLord4/PlanetSim/blob/master/Planet%20Pictures/Mars.png?raw=true">
+            </div>
+
+          	<!-- Jupiter -->
+          	<div id="jupiter-orbit">
+          		<img id="jupiter" src="https://github.com/LightningLord4/PlanetSim/blob/master/Planet%20Pictures/Jupiter.png?raw=true">
+          	</div>
+
+          	<!-- Saturn -->
+          	<div id="saturn-orbit">
+          		<img id="saturn" src="https://github.com/LightningLord4/PlanetSim/blob/master/Planet%20Pictures/Saturn.png?raw=true">
+          	</div>
+
+          	<!-- Uranus -->
+          	<div id="uranus-orbit">
+          		<img id="uranus" src="https://github.com/LightningLord4/PlanetSim/blob/master/Planet%20Pictures/Uranus.png?raw=true">
+          	</div>
+
+        	<!-- Neptune -->
+        	<div id="neptune-orbit">
+        		<img id="neptune" src="https://github.com/LightningLord4/PlanetSim/blob/master/Planet%20Pictures/Neptune.png?raw=true">
         	</div>
-        
-	<!-- Venus -->
-	<div id="venus-orbit">
-		<img id="venus" src="https://github.com/LightningLord4/PlanetSim/blob/master/Planet%20Pictures/Venus.png?raw=true">
-	</div>
-		
-	<!-- Earth -->
-        	<div id="earth-orbit">
-            		<img id="earth" src="https://github.com/LightningLord4/PlanetSim/blob/master/Planet%20Pictures/Earth.png?raw=true">
-        	</div>
-		
-		
-	<!-- Moon -->
-	<div id="earth-orbit">
-	<!-- 2 orbits because it isn't centered on a stationary point -->
-		<div id="moon-orbit">
-			<img id="moon" src="https://github.com/LightningLord4/PlanetSim/blob/master/Planet%20Pictures/Moon.png?raw=true">
-		</div>
-	</div>
-		
-	<!-- Mars -->
-        	<div id="mars-orbit">
-		<img id="mars" src="https://github.com/LightningLord4/PlanetSim/blob/master/Planet%20Pictures/Mars.png?raw=true">
-        	</div>
-		
-	<!-- Jupiter -->
-	<div id="jupiter-orbit">
-		<img id="jupiter" src="https://github.com/LightningLord4/PlanetSim/blob/master/Planet%20Pictures/Jupiter.png?raw=true">
-	</div>
-		
-	<!-- Saturn -->
-	<div id="saturn-orbit">
-		<img id="saturn" src="https://github.com/LightningLord4/PlanetSim/blob/master/Planet%20Pictures/Saturn.png?raw=true">
-	</div>
-		
-	<!-- Uranus -->
-	<div id="uranus-orbit">
-		<img id="uranus" src="https://github.com/LightningLord4/PlanetSim/blob/master/Planet%20Pictures/Uranus.png?raw=true">
-	</div>
-		
-	<!-- Neptune -->
-	<div id="neptune-orbit">
-		<img id="neptune" src="https://github.com/LightningLord4/PlanetSim/blob/master/Planet%20Pictures/Neptune.png?raw=true">
-	</div>	
+        </div>
     </body>
 </html>
